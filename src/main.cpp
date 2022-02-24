@@ -90,8 +90,8 @@ int main(int argc, char** argv) {
     }
 
     std::cout << 
-        "Image params:" 
-        "{" << image.rows << " " << image.cols << "}, scale = " << scale_rows << " " << scale_cols << "}\n";
+        "Image params: " 
+        "{" << image.rows << " " << image.cols << "}, scale = {" << scale_rows << " " << scale_cols << "}\n";
 
     Converter conv(image.cols, scale_rows, scale_cols);
     size_t cnt_rows_to_print = (image.rows + image.rows * scale_rows - 1) / (image.rows * scale_rows);    
