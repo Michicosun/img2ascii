@@ -3,6 +3,10 @@
 This small program convert some image formats to ASCII representation and print it to the terminal in raw format
 
 # Build
+```bash
+git clone --recursive https://github.com/Michicosun/img2ascii
+```
+
 Firstly, you should build OpenCV lib:
 ```bash
 $ cd contrib/
