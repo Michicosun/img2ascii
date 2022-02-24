@@ -1,0 +1,3 @@
+/home/michicosun/Desktop/img2ascii/build/CMakeFiles/rebuild_cache.dir
+/home/michicosun/Desktop/img2ascii/build/CMakeFiles/edit_cache.dir
+/home/michicosun/Desktop/img2ascii/build/CMakeFiles/img2ascii.dir
