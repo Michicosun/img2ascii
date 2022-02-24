@@ -54,6 +54,7 @@ int main(int argc, char** argv) {
         return -1;
     }
 
+    const static double diff_w_h = 0.4;
     std::string path = "";
     double scale_cols = 1;
 
@@ -77,7 +78,7 @@ int main(int argc, char** argv) {
         } else path = argv[i];
     }
 
-    double scale_rows = scale_cols * 0.4;
+    double scale_rows = scale_cols * diff_w_h;
 
     std::cout << "path: " << path << "\n";
 
