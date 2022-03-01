@@ -18,4 +18,4 @@ link_directories( ${OpenCV_LIB_DIR} )
 
 file(GLOB SOURCES "src/*.cpp")
 add_executable(${PROJECT_NAME} ${SOURCES})
-target_link_libraries(${PROJECT_NAME} ${OpenCV_LIBS})
+target_link_libraries(${PROJECT_NAME} opencv_imgcodecs)
