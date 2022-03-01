@@ -27,13 +27,18 @@ $ ninja img2ascii
 
 # Interface:
 ```bash
-$ ./img2ascii <path_to_image> [OPTION]
+$ ./img2ascii <path_to_image> [OPTIONS]
 ```
 
 Initially it runs with scale factor=1, but you can change it, by adding -r parameter in command
 
 ```bash
 $ ./img2ascii <path_to_image> -r 0.3
+```
+
+Also, you can turn on colored output by adding -c key
+```bash
+$ ./img2ascii <path_to_image> -r 0.3 -c
 ```
 
 
