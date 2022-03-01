@@ -15,7 +15,7 @@ using namespace cv;
 class Converter {
 private:
     const static inline std::string density_arr = " .,:;i1tfLCG08@";
-    const static inline size_t max_brightness = 255;
+    const static inline uint64_t max_brightness = 255;
     const static inline size_t delta_bright = max_brightness / density_arr.size();
     
     bool colored;
