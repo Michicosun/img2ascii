@@ -13,7 +13,7 @@ $ cd contrib/
 $ rm -rf build
 $ mkdir build && cd build
 $ cmake .. -G Ninja
-$ ninja
+$ ninja opencv_imgcodecs
 ```
 
 On the second stage, build the program:
