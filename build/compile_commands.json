@@ -1,7 +1,0 @@
-[
-{
-  "directory": "/home/michicosun/Desktop/img2ascii/build",
-  "command": "/usr/bin/c++   -isystem ../contrib/build -isystem ../contrib/opencv/include -isystem ../contrib/opencv/modules/core/include -isystem ../contrib/opencv/modules/flann/include -isystem ../contrib/opencv/modules/imgproc/include -isystem ../contrib/opencv/modules/ml/include -isystem ../contrib/opencv/modules/photo/include -isystem ../contrib/opencv/modules/dnn/include -isystem ../contrib/opencv/modules/features2d/include -isystem ../contrib/opencv/modules/imgcodecs/include -isystem ../contrib/opencv/modules/videoio/include -isystem ../contrib/opencv/modules/calib3d/include -isystem ../contrib/opencv/modules/highgui/include -isystem ../contrib/opencv/modules/objdetect/include -isystem ../contrib/opencv/modules/stitching/include -isystem ../contrib/opencv/modules/ts/include -isystem ../contrib/opencv/modules/video/include -isystem ../contrib/opencv/modules/gapi/include  -O2 -g -DNDEBUG   -std=gnu++2a -o CMakeFiles/img2ascii.dir/src/main.cpp.o -c /home/michicosun/Desktop/img2ascii/src/main.cpp",
-  "file": "/home/michicosun/Desktop/img2ascii/src/main.cpp"
-}
-]
