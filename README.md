@@ -16,6 +16,11 @@ $ cmake .. -G Ninja
 $ ninja opencv_imgcodecs
 ```
 
+If you want a static build of the program, add ***-DBUILD_SHARED_LIBS=OFF*** parameter for cmake 
+```bash
+$ cmake .. -G Ninja -DBUILD_SHARED_LIBS=OFF
+```
+
 On the second stage, build the program:
 ```bash
 $ cd path_to_img2ascii
